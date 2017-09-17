@@ -1,3 +1,4 @@
+// PART A
 // create a function called howdy that will save my greeting to the console
 function howdy() {
     return 'Audrey Strelzoff says hello.';
@@ -5,6 +6,7 @@ function howdy() {
 // invoke the howdy function to print to the console
 console.log(howdy());
 
+// PART B
 // create a function expression equal to the variable numba with the parameter
 // string.
 var numba = function (string) {
@@ -21,3 +23,15 @@ var numba = function (string) {
 numba('7');
 numba('seventy');
 numba('university');
+
+// PART C
+//create a function nestDisplay with parameter of movie
+function nestDisplay(movie) {
+    console.log(movie, 'is a fantastic movie.');
+}
+// create a function named inception and pass the function display to it
+function inception(display, favMovie) {
+    display(favMovie);
+}
+// pass the arguments nestDisplay and 'Practical Magic' to the inception function
+inception(nestDisplay, 'Practical Magic');
