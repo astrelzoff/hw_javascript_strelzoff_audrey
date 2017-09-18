@@ -15,4 +15,5 @@ by Audrey Strelzoff
 I reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
-I have no comments.
+The GitHub link is:
+https://github.com/astrelzoff/hw_javascript_strelzoff_audrey
